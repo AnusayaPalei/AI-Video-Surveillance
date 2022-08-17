@@ -1,0 +1,45 @@
+body{
+    background-size: cover;
+}
+.heading{
+    width:100%;
+    font-size:40px !important;
+    font-weight:bold;
+    font-family: 'Playfair Display', serif;
+    top:0 !important;
+}
+#start{
+    font-size:20px;
+}
+span{
+    margin-left:40px;
+    margin-top:15px;
+}
+.copy_right_footer{
+    font-weight:bold;
+    font-family: 'Benne', serif;
+    color:black;
+    box-shadow:5px 5px 5px grey;
+    background-color:aliceblue;
+    line-height:2;
+    bottom:0;
+    position:fixed;
+    text-align: center;
+    width:100%;
+}
+
+canvas{
+    box-shadow:5px 5px 5px grey;
+    border:3px solid black;
+    animation:video_surveillance;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes video_surveillance {
+    from{
+        color:blueviolet;
+    }
+    to{
+        color:chartreuse;
+    }
+}
